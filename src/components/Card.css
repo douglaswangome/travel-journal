@@ -1,0 +1,48 @@
+.card {
+  border-bottom: 1px solid #aaa;
+  margin: 3vh 1vw;
+  width: calc(100% - 2vw);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 3vh;
+}
+
+.card img {
+  width: 20%;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-right: 1vw;
+}
+
+.card .details .top {
+  margin-bottom: 1vh;
+}
+
+.card .details .top .country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card .details .top .country div {
+  margin-right: 1vw;
+}
+
+.card .details .top .country div svg {
+  color: #F55A5A;
+  margin-right: .5vw;
+}
+
+.card .details .top .country a {
+  color: #aaa;
+}
+
+.card .details .top h2 {
+  font-size: 30px;
+  margin-block: 2vh;
+}
+
+.card .details .top span:last-child {
+  font-weight: 600;
+}

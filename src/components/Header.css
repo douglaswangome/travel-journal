@@ -1,0 +1,13 @@
+.header {
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  font-size: 25px;
+  /* width: calc(100% - 6vw); */
+  width: 100%;
+  padding: 2vh 3vw;
+  text-align: center;
+}
+
+.header svg {
+  margin-right: 1vw;
+}
